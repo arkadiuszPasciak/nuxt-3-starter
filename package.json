@@ -19,7 +19,7 @@
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
-    "prepare": "husky prepare",
+    "prepare": "husky install",
     "postinstall": "nuxt prepare",
     "start": "node .output/server/index.mjs",
     "serve": "serve dist/",

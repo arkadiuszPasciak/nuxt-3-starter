@@ -1,0 +1,18 @@
+{
+  "en": {
+    "LanguageSwitcher": {
+      "languages": {
+        "english": "English",
+        "polish": "Polish"
+      }
+    }
+  },
+  "pl": {
+    "LanguageSwitcher": {
+      "languages": {
+        "english": "Angielski",
+        "polish": "Polski"
+      }
+    }
+  }
+}

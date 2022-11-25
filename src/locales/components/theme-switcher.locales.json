@@ -1,0 +1,20 @@
+{
+  "en": {
+    "ThemeSwitcher": {
+      "themes": {
+        "dark": "Dark",
+        "light": "Light",
+        "system": "System"
+      }
+    }
+  },
+  "pl": {
+    "ThemeSwitcher": {
+      "themes": {
+        "dark": "Ciemny",
+        "light": "Jasny",
+        "system": "Systemowy"
+      }
+    }
+  }
+}

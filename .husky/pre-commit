@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx lint-staged --no-stash
+echo "✅ The files are okay!"
+
+npm run check-types
+echo "✅ The types are okay!"
+
+npm run test:run
+echo "✅ The tests are okay!"

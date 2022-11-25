@@ -1,0 +1,18 @@
+{
+  "en": {
+    "Index": {
+      "head": {
+        "title": "Home Page",
+        "description": "It's home page"
+      }
+    }
+  },
+  "pl": {
+    "Index": {
+      "head": {
+        "title": "Strona główna",
+        "description": "To jest strona główna"
+      }
+    }
+  }
+}

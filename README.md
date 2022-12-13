@@ -21,7 +21,7 @@ Feel free to use 😅
 - 🖼 [Builds your next application with Vue 3 (Nuxt 3)](https://nuxt.com/)
 - 🤖 [Strongly typed, object oriented, compiled language (TypeScript)](https://www.typescriptlang.org/)
 - 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
-- 🚩 [Localization (i18n) by @intlify](https://i18n.nuxtjs.org/)
+- 🚩 [Localization (i18n) by @intlify](https://v8.i18n.nuxtjs.org/)
 - 🐶 [Improves your commits and more (Husky)](https://typicode.github.io/husky/)
 - 🐛 [Helps you find and fix problems with your JavaScript (Eslint)](https://eslint.org/)
 - 🖌 [Helps you find and fix problems with your SCSS (Stylelint)](https://stylelint.io/)

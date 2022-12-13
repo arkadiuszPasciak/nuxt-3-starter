@@ -12,7 +12,7 @@
     "url": "https://github.com/arkadiuszPasciak/nuxt-3-starter/issues"
   },
   "engines": {
-    "node": "16.16.0"
+    "node": "18.12.1"
   },
   "scripts": {
     "build": "nuxt build",
@@ -30,7 +30,6 @@
     "lint:prettier": "prettier --check .",
     "lintfix:prettier": "prettier --write --list-different .",
     "clean": "rm -rf src/.nuxt dist .output",
-    "generate:webfonts": "svgtofont --sources ./src/assets/webfonts/svg --output ./src/assets/webfonts/build",
     "packages-check-updates": "npx npm-check-updates",
     "packages-update": "npx npm-check-updates -u",
     "test": "vitest",

@@ -18,10 +18,10 @@ Feel free to use 😅
 
 ## Features
 
-- 🖼 [Builds your next application with Vue 3 (Nuxt 3)](https://v3.nuxtjs.org/)
+- 🖼 [Builds your next application with Vue 3 (Nuxt 3)](https://nuxt.com/)
 - 🤖 [Strongly typed, object oriented, compiled language (TypeScript)](https://www.typescriptlang.org/)
 - 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
-- 🚩 [Localization (i18n) by @intlify](https://github.com/intlify/nuxt3)
+- 🚩 [Localization (i18n) by @intlify](https://i18n.nuxtjs.org/)
 - 🐶 [Improves your commits and more (Husky)](https://typicode.github.io/husky/)
 - 🐛 [Helps you find and fix problems with your JavaScript (Eslint)](https://eslint.org/)
 - 🖌 [Helps you find and fix problems with your SCSS (Stylelint)](https://stylelint.io/)
@@ -35,7 +35,7 @@ Feel free to use 😅
 This project using `npm` as package manager.
 
 1. Clone this project to your computer `git clone https://github.com/arkadiuszPasciak/nuxt-app`
-2. Set the node version to `v16.16.x`.
+2. Set the node version to `v18.12.2`.
 3. Install dependencies `npm install`
 4. Run `npm run dev` to start development server and open `http://localhost:3000` in your browser
 
@@ -52,14 +52,14 @@ This project using `npm` as package manager.
 ### Static hosting
 
 1. Run `npm run generate` to build the project
-2. Serve `dist/` folder
-3. Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/static-hosting).
+2. Serve `.output/public/index.html` file
+3. Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment#nodejs-server).
 
 ### Node.js server
 
 1. Run `npm run build` to build the project
 2. Serve `.output/server/index.mjs` file
-3. Checkout the [deployment documentation](https://v3.nuxtjs.org/guide/deploy/node-server).
+3. Checkout the [deployment documentation](https://nuxt.com/docs/getting-started/deployment#nodejs-server).
 
 ## Commands
 

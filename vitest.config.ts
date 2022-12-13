@@ -3,7 +3,6 @@
 import { resolve } from 'path'
 import vue from '@vitejs/plugin-vue'
 import tsconfigPaths from 'vite-tsconfig-paths'
-import vueI18n from '@intlify/vite-plugin-vue-i18n'
 import { defineConfig } from 'vitest/config'
 
 export default defineConfig({
@@ -13,7 +12,7 @@ export default defineConfig({
     },
   },
 
-  plugins: [vue(), vueI18n(), tsconfigPaths()],
+  plugins: [vue(), tsconfigPaths()],
   test: {
     globals: true,
     include: [

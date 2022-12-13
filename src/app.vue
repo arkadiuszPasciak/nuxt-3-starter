@@ -11,10 +11,9 @@
 <script lang="ts" setup>
 import { AppSetup } from '@/configs/app.configs'
 import { TThemes } from '@/supports/theme.supports'
-import { TISOCodes } from '@/supports/intlify.supports'
 
 const theme = useState<TThemes>('theme.current')
-const locale = useState<TISOCodes>('locale.setting')
+const locale = useState<string>('locale.setting')
 
 AppSetup()
 </script>

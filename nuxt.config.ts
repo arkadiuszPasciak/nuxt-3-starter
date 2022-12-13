@@ -1,10 +1,10 @@
 import { defineNuxtConfig } from 'nuxt/config'
-import { IntlifyModuleOptions } from '@intlify/nuxt3'
-import { EISOCodes } from './src/supports/intlify.supports'
+import { NuxtI18nOptions } from '@nuxtjs/i18n'
+import { EI18nLocales } from './src/supports/i18n.supports'
 
 declare module '@nuxt/schema' {
   interface NuxtConfig {
-    intlify?: IntlifyModuleOptions
+    i18n?: NuxtI18nOptions
   }
 }
 
@@ -20,16 +20,16 @@ export default defineNuxtConfig({
 
   buildDir: 'src/.nuxt',
 
-  intlify: {
+  i18n: {
     vueI18n: {
-      locale: EISOCodes.ENGLISH,
-      fallbackLocale: EISOCodes.ENGLISH,
-      availableLocales: [EISOCodes.ENGLISH, EISOCodes.POLISH],
+      locale: EI18nLocales.ENGLISH,
+      fallbackLocale: EI18nLocales.ENGLISH,
+      availableLocales: [EI18nLocales.ENGLISH, EI18nLocales.POLISH],
       legacy: false,
     },
   },
 
-  modules: ['@intlify/nuxt3', '@pinia/nuxt'],
+  modules: ['@nuxtjs/i18n', '@pinia/nuxt'],
 
   srcDir: 'src/',
 

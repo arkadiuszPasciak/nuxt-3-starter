@@ -1,14 +1,12 @@
 <template>
   <div class="IndexPage">
     <ThemeSwitcher />
-    <LanguageSwitcher />
   </div>
 </template>
 
 <script lang="ts" setup>
 import { useI18n } from 'vue-i18n'
 import ThemeSwitcher from '@/components/switcher/ThemeSwitcher.vue'
-import LanguageSwitcher from '@/components/switcher/LanguageSwitcher.vue'
 
 const { t } = useI18n()
 

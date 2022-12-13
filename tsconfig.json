@@ -1,11 +1,8 @@
 {
   // https://nuxt.com/docs/guide/concepts/typescript
-  "extends": "./src/.nuxt/tsconfig.json",
   "compilerOptions": {
     "jsx": "preserve",
-    "paths": {
-      "@/*": ["./src/*"]
-    },
     "strict": true
-  }
+  },
+  "extends": "./src/.nuxt/tsconfig.json"
 }

@@ -10,6 +10,6 @@ import { useI18n } from 'vue-i18n'
 const { t } = useI18n()
 </script>
 
-<i18n src="@/locales/components/logo.locales.json"></i18n>
+<i18n src="@/locales/logo.locales.json"></i18n>
 
 <style lang="scss" scoped></style>

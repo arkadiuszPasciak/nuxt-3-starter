@@ -21,7 +21,7 @@ const themeSetting = useState<TThemes>('theme.setting')
 const { t } = useI18n()
 </script>
 
-<i18n src="@/locales/components/theme-switcher.locales.json"></i18n>
+<i18n src="@/locales/theme-switcher.locales.json"></i18n>
 
 <style lang="scss">
 .theme-dark body {

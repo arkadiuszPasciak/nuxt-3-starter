@@ -25,6 +25,6 @@ useHead(() => ({
 }))
 </script>
 
-<i18n src="@/locales/pages/index.locales.json"></i18n>
+<i18n src="@/locales/index.locales.json"></i18n>
 
 <style lang="scss" scoped></style>

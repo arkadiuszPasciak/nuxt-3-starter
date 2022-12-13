@@ -14,6 +14,6 @@ import Navigation from '@/components/base/Navigation.vue'
 const { t } = useI18n()
 </script>
 
-<i18n src="@/locales/components/header.locales.json"></i18n>
+<i18n src="@/locales/header.locales.json"></i18n>
 
 <style lang="scss" scoped></style>

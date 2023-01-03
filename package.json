@@ -60,5 +60,16 @@
     "vite-tsconfig-paths": "^4.0.3",
     "vitest": "^0.26.3",
     "vue-tsc": "^1.0.19"
+  },
+  "overrides": {
+    "@nuxtjs/eslint-config-typescript": {
+      "@nuxtjs/eslint-config": {
+        "eslint-plugin-import": {
+          "tsconfig-paths": {
+            "json5": "^2.2.2"
+          }
+        }
+      }
+    }
   }
 }
